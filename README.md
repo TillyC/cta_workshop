@@ -1,14 +1,14 @@
 # cta_workshop
 
-## Mending Musically
+## Textile Sensors 
 
-Using old material upcycle and give it new life by turning it into a sound machine. 
+How to make electronic sensors from scratch using textiles. I will provide the materials however, if you have your own yarn and crochet hook that you are comfortable using then feel free to bring those along. Hopefully everyone will leave the workshop with a functioning sensor that does something ...
 
 ## Tools
-### Textile
- - old socks (preferably ones with a holes in, but bring any pair that you don't really use).
+### Textiles
+ - Normal yarn
  - Conductive yarn
- - Darning needle
+ - Crochet hook
 ### Electronics
  - Raspberry Pi
  - 2 x crocodile clips
@@ -17,7 +17,13 @@ Using old material upcycle and give it new life by turning it into a sound machi
  - breadboard
 
 ## Resources
-add any relevant websites here
+How to videos:
+
+projects as inspiration:
+https://www.kthartic.com/index.php/wearables/urban-armor-10/)https://www.kthartic.com/index.php/wearables/urban-armor-10/
+https://www.kobakant.at/DIY/?p=3175
+https://etextile-summercamp.org/swatch-exchange/darned-and-mended/
+https://www.dezeen.com/2014/06/20/yen-chen-chang-knitted-sensors-rca-show-2014/
 
 ## Step by Step 
 
