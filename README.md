@@ -26,5 +26,10 @@ projects as inspiration:
 - https://www.dezeen.com/2014/06/20/yen-chen-chang-knitted-sensors-rca-show-2014/
 
 ## Step by Step 
+# Intro
+# Making the Sensor
+# Test it out
+# Write the code
+# Customise 
 
 ## Extra Resources 
