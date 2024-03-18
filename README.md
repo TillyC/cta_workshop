@@ -20,10 +20,10 @@ How to make electronic sensors from scratch using textiles. I will provide the m
 How to videos:
 
 projects as inspiration:
-https://www.kthartic.com/index.php/wearables/urban-armor-10/)https://www.kthartic.com/index.php/wearables/urban-armor-10/
-https://www.kobakant.at/DIY/?p=3175
-https://etextile-summercamp.org/swatch-exchange/darned-and-mended/
-https://www.dezeen.com/2014/06/20/yen-chen-chang-knitted-sensors-rca-show-2014/
+- https://www.kthartic.com/index.php/wearables/urban-armor-10/)https://www.kthartic.com/index.php/wearables/urban-armor-10/
+- https://www.kobakant.at/DIY/?p=3175
+- https://etextile-summercamp.org/swatch-exchange/darned-and-mended/
+- https://www.dezeen.com/2014/06/20/yen-chen-chang-knitted-sensors-rca-show-2014/
 
 ## Step by Step 
 
