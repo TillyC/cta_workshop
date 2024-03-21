@@ -42,6 +42,14 @@ I want this workshop to be an introduction to electronic textiles so that you ca
 - Make sure to leave 2 ends of the conductive yarn to attatch crocodile clips to.
 - set aside until it's time to test - ideally at this point you would use a multimeter to test the resistance but we don't currently have access to one.
 
+### Make the circuit 
+Before we plug the Pi in we are going to set up the circuit. This is a simple set up. 
+- Connect a different colour crocodile clip to each end of the sensor (these will be yout power and ground connections).
+- Attach a correspondng wire to the other end of the crocodile clips.
+- One of those wires will connect to your power/data and the other to ground.
+- Turn on the Pi.
+That's it!
+
 ### Set up the Pi
 Lets start by making a new directory in your Pi for this workshop.
 - Open terminal.
@@ -62,26 +70,20 @@ To get audio to play from the raspberry pi, we need to make sure to select the c
 
 We now have to make sure that everyone has a .wav sound available on their raspberry pi's. 
 - Download the folder sounds.
-- Re locate this to 
+- Re locate this folder into the directory we made at the start. "source\filename" "destination\folder\filename"
 
- 
-
-raspi config 
-
-enter
-
-audio - enter
-
-usb device enter
-
-back
-
-finish 
+### Test play a sound 
+- run the code called ...
+- Once running write the command play. ... ()
+- You should be able a sound play from your speaker.
   
-### Write the code
-- The code is available to copy and paste under ... . I have left comments that explain each part. 
+### Write the main code
+- The code is available to copy and paste under ... . I have left comments that explain each part.
 
 ### Test it out
+Run the code and see what happens when you apply pressure to the sensor. You should hear your sound start to play.
+
 ### Customise 
+Play around with the code and circuit to see how you can develop this. What happens if you add an LED to the circuit? What if you want the sound to only play once or if you want to add more sensors?
 
 ## Extra Resources 
