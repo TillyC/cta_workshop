@@ -28,8 +28,23 @@ projects as inspiration:
 ## Step by Step 
 ### Intro
 ### Making the Sensor
-### Test it out
 ### Write the code
+### Set up the Pi
+To get audio to play from the raspberry pi, we need to make sure to select te correct output. The Pi defaults to the headphone jack but since we have USB speakers we need to go into the settings to change that. 
+
+raspi config 
+
+enter
+
+audio - enter
+
+usb device enter
+
+back
+
+finish 
+
+### Test it out
 ### Customise 
 
 ## Extra Resources 
