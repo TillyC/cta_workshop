@@ -36,16 +36,20 @@ I want this workshop to be an introduction to electronic textiles so that you ca
 
 ### Making the Sensor
 - Select your square of scrap fabric.
+![image](https://github.com/TillyC/cta_workshop/assets/52659157/89b42646-7714-4fd9-82c8-e401d0e9b31f)
 - Thread your needle with conudctive yarn.
+![image](https://github.com/TillyC/cta_workshop/assets/52659157/99099da9-2db1-4899-a534-d48d44f28e64)
 - Make a securing stitch, this will act as your positive power connection.
 https://www.youtube.com/watch?v=f58woIqfz3o
-- Loosely stitch a condensed patch of threads, this will be your pressure activation point.
-- Make a second securing stitch, this will act as your negative power connection.
+- Loosely stitch a condensed patch of threads, this will be your pressure activation point (this example worked really well).
+![image](https://github.com/TillyC/cta_workshop/assets/52659157/b8f95e74-6e0c-42b1-b8e4-0db082edb49e)
+- Make a second securing stitch, this will act as your negative power connection (in this image you can see the reverse, where the longer strands of thread connect are your positive and negative secured connection points).
+![image](https://github.com/TillyC/cta_workshop/assets/52659157/31e68329-e5bb-42de-be7d-379895ecaed7)
 - Set aside until it's time to test - ideally at this point you would use a multimeter to test the resistance but we don't currently have access to one.
 
 ### Make the circuit 
 Before we plug the Pi in we are going to set up the circuit. This is a simple set up. 
-- Connect a different colour crocodile clip to each end of the sensor (these will be yout power and ground connections).
+- Connect a different colour crocodile clip to each end of the secured stitches on the sensor (these will be your power and ground connections).
 - Attach a correspondng wire to the other end of the crocodile clips.
 - One of those wires will connect to your power/data and the other to ground.
 - Turn on the Pi.
