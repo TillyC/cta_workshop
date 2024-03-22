@@ -61,13 +61,16 @@ That's it!
 Lets start by making a new directory in your Pi for this workshop.
 - Open terminal.
 - SHH into your raspberry Pi.
-- cd to your home folder
 ```
-  cd {your directory location}
+  ssh {name}@{IP}
 ```
-- That is where we will make a new folder , I've called mine tilly_workshop.
+- Clone this repo onto your Pi.
 ```
-mkdir tilly_workshop
+  git clone {URL}
+```
+- CD into this workshop folder
+```
+cd cta_workshop
 ```
 
 To get audio to play from the raspberry pi, we need to make sure to select the correct output. The Pi defaults to the headphone jack but since we have USB speakers we need to go into the settings to change that. 
