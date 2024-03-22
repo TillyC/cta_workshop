@@ -92,9 +92,9 @@ move "source\filename" "destination\folder\filename"
 
 ### Test play a sound 
 - Download and run the code called sound_test.py from your workshop folder.
-  ```
-  python sound_test.py
-  ```
+```
+python sound_test.py
+```
 - Once running write the command play.pop()
 ```
 play.pop()
@@ -103,12 +103,10 @@ play.pop()
 - You should be able a sound play from your speaker.
   
 ### Write the main code
-- The code is available to copy and paste under ... . I have left comments that explain each part.
+- The code is available to copy and paste under sensor_code.py . I have left comments that explain each part.
 
 ### Test it out
 Run the code and see what happens when you apply pressure to the sensor. You should hear your sound start to play.
 
 ### Customise 
 Play around with the code and circuit to see how you can develop this. What happens if you add an LED to the circuit? What if you want the sound to only play once or if you want to add more sensors?
-
-## Extra Resources 
