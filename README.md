@@ -38,6 +38,7 @@ I want this workshop to be an introduction to electronic textiles so that you ca
 - Select your scrap fabric.
 - Insert a stabalising layer of fabric on the wrong side of your scrap fabric.
 - We will begin with a simple basting stitch to keep that in place.
+https://www.youtube.com/watch?v=f58woIqfz3o
 - Once secured thread your needle with the conductive yarn.
 - We will make a securing stitch.
 - Loosely darn the dammaged area on the scrap fabric.
