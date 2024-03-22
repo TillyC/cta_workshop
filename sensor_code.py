@@ -14,7 +14,8 @@ GPIO.setup(sensor_pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 # Initialize Pygame for audio playback
 pygame.init()
 
-# Load the sound file
+# Load the sound file 
+# edit the path to match your file ("/home/{yourName}/cta_workshop/Sounds/{yourWavFileName}.wav")
 pop = pygame.mixer.Sound("/home/zishanpi/gpio-music-box/samples/pop.wav")
 
 try:
