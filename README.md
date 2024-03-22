@@ -35,14 +35,12 @@ projects as inspiration:
 I want this workshop to be an introduction to electronic textiles so that you can understand the way it could be applied to a creative brief. I also hope you have fun. 
 
 ### Making the Sensor
-- Select your scrap fabric.
-- Insert a stabalising layer of fabric on the wrong side of your scrap fabric.
-- We will begin with a simple basting stitch to keep that in place.
+- Select your square of scrap fabric.
+- Thread your needle with conudctive yarn.
+- Make a securing stitch, this will act as your positive power connection.
 https://www.youtube.com/watch?v=f58woIqfz3o
-- Once secured thread your needle with the conductive yarn.
-- We will make a securing stitch.
-- Loosely darn the dammaged area on the scrap fabric.
-- Make sure to leave 2 ends of the conductive yarn to attatch crocodile clips to.
+- Loosely stitch a condensed patch of threads, this will be your pressure activation point.
+- Make a second securing stitch, this will act as your negative power connection.
 - Set aside until it's time to test - ideally at this point you would use a multimeter to test the resistance but we don't currently have access to one.
 
 ### Make the circuit 
@@ -54,8 +52,6 @@ Before we plug the Pi in we are going to set up the circuit. This is a simple se
   
 ![image](https://github.com/TillyC/cta_workshop/assets/52659157/8d35d90b-6cf4-41fa-91bb-ffa83101230f)
 ![image](https://github.com/TillyC/cta_workshop/assets/52659157/4b47f7d3-ec3f-407e-98ef-1a3bb63f7d33)
-
-That's it!
 
 ## Set up the Pi (SSH)
 To get audio to play from the raspberry pi, we need to make sure to select the correct output. The Pi defaults to the headphone jack but since we have USB speakers we need to go into the settings to change that. 
