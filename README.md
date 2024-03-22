@@ -30,7 +30,7 @@ projects as inspiration:
 - https://www.kobakant.at/DIY/?p=3175
 - https://www.dezeen.com/2014/06/20/yen-chen-chang-knitted-sensors-rca-show-2014/
 
-## Step by Step 
+## Step by Step (SSH)
 ### Intro
 I want this workshop to be an introduction to electronic textiles so that you can understand the way it could be applied to a creative brief. I also hope you have fun. 
 
@@ -58,23 +58,13 @@ Before we plug the Pi in we are going to set up the circuit. This is a simple se
 That's it!
 
 ### Set up the Pi
-Lets start by making a new directory in your Pi for this workshop.
-- Open terminal.
-- SHH into your raspberry Pi.
+To get audio to play from the raspberry pi, we need to make sure to select the correct output. The Pi defaults to the headphone jack but since we have USB speakers we need to go into the settings to change that. 
+- plug in a speaker to the usb port (we don't have 18 speakers so you will need to share).
+- Open your terminal.
+- SSH into your raspberry Pi.
 ```
   ssh {name}@{IP}
 ```
-- Clone this repo onto your Pi.
-```
-  git clone {URL}
-```
-- CD into this workshop folder
-```
-cd cta_workshop
-```
-
-To get audio to play from the raspberry pi, we need to make sure to select the correct output. The Pi defaults to the headphone jack but since we have USB speakers we need to go into the settings to change that. 
-- plug in a speaker to the usb port (we don't have 18 speakers so you will need to share).
 - In the terminal type sudo raspi-config.
 ```
 sudo raspi-config
@@ -87,13 +77,31 @@ sudo raspi-config
 - Right arrow and enter to select ok.
 - Left arrow and enter to select finish to return to your terminal window.
 
-We now have to make sure that everyone has a .wav sound available on their raspberry pi's. 
-- Download the folder sounds.
-- Re locate this folder into the directory we made at the start.
+Lets get everyone into the correct folder.
+- Clone this repo onto your Pi.
 ```
-move "source\filename" "destination\folder\filename"
+  git clone {URL}
 ```
+- CD into this workshop folder
+```
+cd cta_workshop
+```
+### Edit and run the code
+- You will need to update the file path and name of the sound file in sensor_code.py.
+```
+nano sensor_code.py
+```
+- When the change has been made you need to save the changes and return to the terminal. Ctrl X / Y / enter .
+- Run the code
+```
+python sensor_code.py
+```
+- You should now be able a sound play from your speaker.
 
+### Customise 
+Play around with the code and circuit to see how you can develop this. What happens if you add an LED to the circuit? What if you want the sound to only play once or if you want to add more sensors?
+
+## Step by Step (VNC)
 ### Test play a sound 
 - Download and run the code called sound_test.py from your workshop folder.
 ```
